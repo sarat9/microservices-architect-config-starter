@@ -1,0 +1,10 @@
+server:
+  port : 8090
+zuul:
+  routes:
+    offer:
+      path: /offer/**
+      url: http://localhost:1001/api/v1
+    shoe:
+      path: /shoe/**
+      url: http://localhost:1002/api/v1
