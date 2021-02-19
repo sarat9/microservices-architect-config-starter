@@ -1,5 +1,5 @@
 server:
-  port : 8090
+  port : 9999
 zuul:
   routes:
     offer:
@@ -8,3 +8,9 @@ zuul:
     shoe:
       path: /shoe/**
       url: http://localhost:1002/api/v1
+    wishlist:
+      path: /wishlist/**
+      url: http://localhost:1003
+    cart:
+      path: /cart/**
+      url: http://localhost:1004/api/v1
