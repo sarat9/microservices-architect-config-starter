@@ -1,8 +1,5 @@
 from flask import Flask,request
 from flask_cors import CORS 
-from PIL import Image 
-import numpy as np
-import base64
 import json
 
 
@@ -12,6 +9,18 @@ CORS(app)
 
 @app.route('/', methods = ['GET'])
 def hello():
+   print('Getting List of WishList Items')
+   x = {
+    "1": "Apple Iphone",
+    "2": "MacBook",
+    "3": "Your Fav Something else"
+   }
+   y = json.dumps(x)
+   return y
+
+
+@app.route('/likes', methods = ['GET'])
+def likes():
    print('Getting List of WishList Items')
    return 'List of WishList Items'
 

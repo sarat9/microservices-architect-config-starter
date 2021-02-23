@@ -52,15 +52,16 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
+			<dependency>
+				<groupId>org.apache.logging.log4j</groupId>
+				<artifactId>log4j-api</artifactId>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.logging.log4j</groupId>
+				<artifactId>log4j-core</artifactId>
+			</dependency>
 		</dependencies>
-		<dependency>
-	    	<groupId>org.apache.logging.log4j</groupId>
-	    	<artifactId>log4j-api</artifactId>
-	    </dependency>
-	    <dependency>
-	    	<groupId>org.apache.logging.log4j</groupId>
-	    	<artifactId>log4j-core</artifactId>
-	    </dependency>
+
 	</dependencyManagement>
 
 	<build>
