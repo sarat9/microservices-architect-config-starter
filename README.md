@@ -17,7 +17,7 @@ The application consists of 5 different Microservices
 -   [cart-microservice-nodejs](https://github.com/sarat9/microservices-architect-config-starter/tree/main/cart-microservice-nodejs)  - Node.js App with Cart data
 -   [wishlist-microservice-python](https://github.com/sarat9/microservices-architect-config-starter/tree/main/wishlist-microservice-python)  - Python App with Wishlist data
 -   [zuul-api-gateway](https://github.com/sarat9/microservices-architect-config-starter/tree/main/zuul-api-gateway)  - API gateway that proxies all the micro-services
--   [web-portal](https://github.com/sarat9/microservices-architect-config-starter/tree/main/zuul-api-gateway)  - Single Page Application that provides the UI
+-   [ui-web-app-reactjs](https://github.com/sarat9/microservices-architect-config-starter/tree/main/ui-web-app-reactjs)  - Single Page Application that provides the UI
 
 
 
@@ -28,3 +28,4 @@ The application consists of 5 different Microservices
 
 ![MicroService Architeture ](https://miro.medium.com/max/1050/1*kSLJKEl3X-gKNTpO1l7SQg.png)# Microservices Architecture Sample!
 
+Feel Free to contribute.. 
