@@ -4,13 +4,13 @@ Microservices Architecture Configuration Starter Sample
 
 
 
-Architecture of sample multiple microservices developed in different technologies - Spring Boot, Node.js, Python in a project.
+Architecture of sample multiple microservices developed in different technologies - Spring Boot, Node.js, Python, React.js in a project.
 Microservices connected by an API Gateway using Netflix Zuul.
 
 
 ## Application Architecture
 
-The application consists of 5 different Microservices
+The application consists of 6 different Microservices
 
 -   [shoes-microservice-spring-boot](https://github.com/sarat9/microservices-architect-config-starter/tree/main/shoes-microservice-spring-boot)  - Spring Boot App with Shoe data
 -   [offers-microservice-spring-boot](https://github.com/sarat9/microservices-architect-config-starter/tree/main/offers-microservice-spring-boot)  - Spring Boot App with Offers data
