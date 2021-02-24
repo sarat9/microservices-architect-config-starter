@@ -1,5 +1,8 @@
 package com.microservices.shoes.controllers;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -13,11 +16,27 @@ public class ShoeController {
 
     Logger logger = LoggerFactory.getLogger(ShoeController.class);
 
-	@GetMapping("/shoes")
-	public String getShoes() {		
+    
+    @GetMapping("/shoes")
+	public Map<String, String> getShoes() {		
 		try {
 			logger.info("Getting Shoes");
-			return "List Of Shoes Data";
+			HashMap<String, String> shoesMap = new HashMap<String, String>();
+			shoesMap.put("tommy", "Tommy Hilfiger Shoe");
+			shoesMap.put("nikeshoe", "Nike Sports Shoe");
+			shoesMap.put("adidas", "Adidas Running Shoe");
+			return shoesMap;
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+    
+	@GetMapping("/shoes/sport")
+	public String getSportShoes() {		
+		try {
+			logger.info("Getting Sport Shoes");
+			return "List Of Sport Shoes Data";
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

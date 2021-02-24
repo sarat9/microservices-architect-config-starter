@@ -1,0 +1,17 @@
+/*
+  px <-> em: http://pxtoem.com/
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+
+  // https://mzl.la/2KnTfHh
+  // size/line-height | family
+  font: 16px/1 'Open Sans', Arial, Helvetica, sans-serif;
+}

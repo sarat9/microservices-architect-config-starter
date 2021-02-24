@@ -1,0 +1,40 @@
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                             //
+//  This file will be the top-most entry point for all styles in the app.                      //
+//  Any dependant styles should be explicitly imported here.                                   //
+//                                                                                             //
+//  Using `~` - http://bit.ly/2KmElRj                                                          //
+//  "The sass-loader uses node-sass' custom importer feature to pass all queries               //
+//  to the webpack resolving engine. Thus you can import your Sass modules from node_modules.  //
+//  Just prepend them with a ~ to tell webpack that this is not a relative import."            //
+//  Think of `~` as a way of saying `node_modules`.                                            //
+//                                                                                             //
+//  Importing CSS files - include the extension:                                               //
+//  @import '~my-library/styles.css'                                                           //
+//  @import 'path/to/my/library/styles.css'                                                    //
+//                                                                                             //
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+/*
+  Sassyons
+  --------
+
+  PSA - Sassyons is a utility library that is NOT meant to be bundled as a whole into your project.
+  There are an obnoxious amount of classes that give you, the developer, full control
+  over styling your project. HOWEVER, the Webpack bundle included with this project
+  uses `purgecss` to strip out unused styles, so you need not be concered!
+
+  Read more - https://github.com/qodesmith/sassyons
+*/
+@import '~sassyons/scss/sassyons';
+
+
+/*
+  Application Styles
+  ------------------
+
+  All our application-specific styles will go below.
+  @import each of them in reverse-priority order (bottom = highest priority).
+*/
+@import 'global';
