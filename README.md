@@ -28,3 +28,22 @@ The application consists of 5 different Microservices
 
 ![MicroService Architeture ](https://miro.medium.com/max/1050/1*kSLJKEl3X-gKNTpO1l7SQg.png)# Microservices Architecture Sample!
 
+
+
+# Microservices
+## Why go for Microservices?
+Microservices are Decentralized, Independent, Highly maintainable and testable, Loosely coupled, Independently deployable, Organized around business capabilities, implemented with technologies by functional preference.
+Do one thing well.
+Agility, scalability, availability, reusability.
+Improves fault isolation, Eliminates long-term commitment to a single technology stack, Code for different services can be written in different languages
+
+
+
+## Problems of Monolithic
+As everything is packaged in one EAR/WAR, we cannot change technology stack, refactoring code base is difficult.
+If any single function fails, the entire application goes down.
+If a particular function consumes more memory, entire application feels the pain.
+Scaling such a monolithic application can only be accomplished by deploying the same EAR/WAR packages in more servers — also known as horizontal scaling. Each copy of the application in various servers will utilize the same amount of underlying resources, which is often not an efficient way to design.
+
+
+
