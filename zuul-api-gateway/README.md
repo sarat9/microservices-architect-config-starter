@@ -7,7 +7,47 @@ mvn clean install
 java -jar zuul-0.0.1-SNAPSHOT.jar
 
 ```
-*App runs on port 9999*
+*App runs on port **9999***
+
+
+> Access the app from endpoint:
+> API Gateway from localhost:9999 is the  single point of entry or a gateway for all the incoming traffic to our microservices.
+
+offers-microservice-spring-boot 
+```
+API endpoint:  http://localhost:9999/offer/offers
+Original endpoint: http://localhost:1001/api/v1/offers
+Method: GET
+Response:
+{"samsung":"Samsung 10% Discount","adidas":"Adidas Shoe 70% Off","nikeshoe":"Nike Sports Shoe 50% off"}
+```
+shoes-microservice-spring-boot 
+```
+API endpoint:  http://localhost:9999/shoe/shoes
+Original endpoint: http://localhost:1002/api/v1/shoes
+Method: GET
+Response:
+{"tommy":"Tommy Hilfiger Shoe","adidas":"Adidas Running Shoe","nikeshoe":"Nike Sports Shoe"}
+```
+wishlist-microservice-python
+```
+API endpoint:  http://localhost:9999/wishlist
+Original endpoint: http://localhost:1003/
+Method: GET
+Response:
+{"1": "Apple Iphone", "2": "MacBook", "3": "Your Fav Something else"}
+```
+cart-microservice-nodejs 
+```
+API endpoint:  http://localhost:9999/cart
+Original endpoint: http://localhost:1004/api/v1/
+Method: GET
+Response:
+{"data":[{"itemNo":1,"item":"Nike Shoe"},{"itemNo":2,"item":"Tommy Hilfiger Shirt"},{"itemNo":3,"item":"Calvin Klien Trousers"}]}
+```
+
+##
+##
 ##
 
 # About Zuul
