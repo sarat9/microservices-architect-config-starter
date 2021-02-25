@@ -7,5 +7,7 @@ Developed in React.js
 npm start
 
 ```
-*App runs on port 8080*
+*App runs on port **8080***
+
+Open http://localhost:8080 in browser
 ##
