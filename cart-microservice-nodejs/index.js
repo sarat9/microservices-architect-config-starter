@@ -4,6 +4,8 @@ const cors = require("cors");
 
 const app = express();
 const route = require('./src/routes')
+const eurekaHelper = require('./src/eureka/eureka-helper');
+
 
 var corsOptions = {
     origin: "*"
@@ -32,3 +34,6 @@ app.listen(PORT, () => {
     console.log(`Cart Microservice Started...`);
     console.log(`Node Server is running on port ${PORT}.`);
 });
+
+
+eurekaHelper.registerWithEureka('cart-client', PORT);

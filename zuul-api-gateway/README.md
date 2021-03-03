@@ -62,7 +62,8 @@ In order to have a robust approach, we have to implement a single point of entry
 Zuul uses a range of different types of filters that enables us to quickly and nimbly apply functionality to our edge service. These filters help us perform the following functions:
 
  - Authentication and Security — identifying authentication requirements
-   for each resource and rejecting requests that do not satisfy them.
+   for each resource and rejecting requests that do not satisfy them. We will have a centralized security implementation which will be applied to all incoming requests
+ - Load Balancing — Zuul uses Netflix Ribbon to discover all the instances of a service from the Eureka Service Discovery Server. It automatically finds the physical locations of each service instance and redirects the requests to the actual services holding the resources to be accessed.
  - Insights and Monitoring — tracking meaningful data and statistics at
    the edge in order to give us an accurate view of production.
  - Dynamic Routing — dynamically routing requests to different backend
@@ -75,7 +76,7 @@ Zuul uses a range of different types of filters that enables us to quickly and n
    edge instead of forwarding them to an internal cluster
  - Multiregion Resiliency — routing requests across AWS regions in order
    to diversify our ELB usage and move our edge closer to our members
-
+ 
  
 
 **Filters**
