@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.eureka.discovery.DiscoveryApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 7.229 s <<< FAILURE! - in com.eureka.discovery.DiscoveryApplicationTests
+contextLoads  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/springframework/boot/Bootstrapper
+Caused by: java.lang.ClassNotFoundException: org.springframework.boot.Bootstrapper
+
