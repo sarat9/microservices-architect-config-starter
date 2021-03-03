@@ -11,10 +11,10 @@ const App = () => {
   
   const getUserGeolocationDetails = () => {
     fetch("/myip")
-        // .then(response => response.json())
+        .then(response => response.json())
         .then(data => {
           console.log(data)
-          setDetails(data)
+          setDetails(data.url)
         });
   }
 

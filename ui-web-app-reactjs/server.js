@@ -27,8 +27,11 @@ app.get('/ping', (req, res) => {
 })
 
 app.get('/myip', (req, res) => {
-    return res.send(backendApiUrl)
-  })
+    // return res.send(''+backendApiUrl)
+    return res.json({ url: ''+backendApiUrl });
+})
+
+
 
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'build', 'index.html'))
