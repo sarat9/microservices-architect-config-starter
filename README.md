@@ -29,7 +29,8 @@ The application consists of 7 different Microservices
 
 ![MicroService Architeture ](https://miro.medium.com/max/1050/1*kSLJKEl3X-gKNTpO1l7SQg.png)# Microservices Architecture Sample!
 
-
+#
+#
 
 # Microservices
 Microservices are Decentralized, Independent and  Loosely coupled.
@@ -79,5 +80,7 @@ To just play around..
 
 Go Through - https://microservices.io/index.html
 
+#
+#
 
 Feel Free to contribute.. 
