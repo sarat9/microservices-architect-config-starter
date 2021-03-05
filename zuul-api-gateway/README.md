@@ -15,7 +15,7 @@ java -jar zuul-0.0.1-SNAPSHOT.jar
 
 offers-microservice-spring-boot 
 ```
-API endpoint:  http://localhost:9999/offer/offers
+Zuul API endpoint:  http://localhost:9999/offer/offers
 Original endpoint: http://localhost:1001/api/v1/offers
 Method: GET
 Response:
@@ -23,7 +23,7 @@ Response:
 ```
 shoes-microservice-spring-boot 
 ```
-API endpoint:  http://localhost:9999/shoe/shoes
+Zuul API endpoint:  http://localhost:9999/shoe/shoes
 Original endpoint: http://localhost:1002/api/v1/shoes
 Method: GET
 Response:
@@ -31,7 +31,7 @@ Response:
 ```
 wishlist-microservice-python
 ```
-API endpoint:  http://localhost:9999/wishlist
+Zuul API endpoint:  http://localhost:9999/wishlist
 Original endpoint: http://localhost:1003/
 Method: GET
 Response:
@@ -39,7 +39,7 @@ Response:
 ```
 cart-microservice-nodejs 
 ```
-API endpoint:  http://localhost:9999/cart
+Zuul API endpoint:  http://localhost:9999/cart
 Original endpoint: http://localhost:1004/api/v1/
 Method: GET
 Response:
