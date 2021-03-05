@@ -61,6 +61,21 @@ Problems of Monolithic:
 - Development Team Scaling - Each service is a separate codebase, which can be managed by a small development team.
 - Development Speed: Microservices are often quite small in size. Due to the size, adding new features in Microservices are usually faster.
 
+#
+#
+
+This repository helps with following understanding:
+- Modularizing into seperate Microservices
+- Microservices developed in different technologies
+- Microservices integrated by API gateway
+- Discovery and Service Register 
+
+You can use the project as base to start a project or demo... 
+or 
+To just play around..
+
+#
+#
 
 Go Through - https://microservices.io/index.html
 
