@@ -80,6 +80,10 @@ Eureka helps with Service Registration and Discovery service
  
   
 
+![MicroService Architeture with Eureka](https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F99A0213F5C5C2B7F32)# Microservices Architecture with Eureka
+
+#
+#
 
 
 > Reference and src:
