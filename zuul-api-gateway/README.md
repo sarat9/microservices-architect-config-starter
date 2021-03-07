@@ -78,6 +78,8 @@ Zuul uses a range of different types of filters that enables us to quickly and n
    to diversify our ELB usage and move our edge closer to our members
  
  
+ ![MicroService Architeture with API Gateway ](https://miro.medium.com/max/5372/1*vkHiocXhkClGCDzkNBTeQQ.png)# Microservices Architecture with API Gateway!
+
 
 **Filters**
 
