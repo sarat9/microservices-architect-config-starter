@@ -33,6 +33,7 @@ The application consists of 7 different Microservices
 #
 
 # Microservices
+Crafting Microservices now become an industry standard for any new API development, and almost all the organizations are promoting it.
 Microservices are Decentralized, Independent and  Loosely coupled.
 Before we go into why we need microservices. Lets understand the problems of our traditional monolitic approach.
 
