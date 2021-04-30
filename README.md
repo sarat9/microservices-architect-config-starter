@@ -21,10 +21,10 @@ The application consists of 7 different Microservices
 -   [ui-web-app-reactjs](https://github.com/sarat9/microservices-architect-config-starter/tree/main/ui-web-app-reactjs)  - Single Page Application that provides the UI
 
 
+*Optional* - [config-server-spring-boot](https://github.com/sarat9/config-server-spring-boot) repo has a config server service, you can chose to connect them if you want. It is different repository. 
 
 
-
-
+##
 
 
 ![MicroService Architeture ](https://miro.medium.com/max/1050/1*kSLJKEl3X-gKNTpO1l7SQg.png)# Microservices Architecture Sample!
